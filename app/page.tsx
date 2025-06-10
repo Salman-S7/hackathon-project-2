@@ -151,12 +151,12 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
             Step Into
             <span className="bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent block">
-              History's Greatest Minds
+              History&apos;s Greatest Minds
             </span>
           </h1>
 
           <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-            Have meaningful conversations with history's most influential
+            Have meaningful conversations with history&apos;s most influential
             figures. Ask questions, seek wisdom, and learn from the greatest
             minds that shaped our world.
           </p>
@@ -348,4 +348,3 @@ export default function Home() {
     </div>
   );
 }
-  

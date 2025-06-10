@@ -73,7 +73,8 @@ interface Message {
 }
 
 // Mock AI responses based on historical figure
-const generateResponse = (figureId: string, userMessage: string): string => {
+// , userMessage: string
+const generateResponse = (figureId: string): string => {
   const responses = {
     ambedkar: [
       "Education is the milk of a lioness - whoever drinks it will roar. What aspects of learning and empowerment interest you?",
@@ -144,7 +145,8 @@ export default function ChatPage() {
 
     // Simulate AI response delay
     setTimeout(() => {
-      const response = generateResponse(figureId, inputMessage);
+      // inputMessage
+      const response = generateResponse(figureId);
       const figureMessage: Message = {
         id: (Date.now() + 1).toString(),
         content: response,
